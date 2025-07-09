@@ -1,0 +1,13 @@
+CGNP (Cruz General Network Protocol)
+
+CGNP is designed to send messages from one user to another, as opposed to sending a message from a
+server to a client and from a client to a server. This is called peer to peer (P2P).
+This system has many advantages, such as:
+
+ - faster connections (for one user to talk to another the message doesn't have to pass through
+    a server first)
+ - no central point of failure (in a client-server situation, if a server goes down, there is no
+    connection whatsoever, but in a P2P configuration there is no central point that can fail)
+ - scalability: in a client-server configuration the server has to handle all requests, so more
+    users = worse performance, but with P2P the load is distributed across users
+ - lower infrastructure costs

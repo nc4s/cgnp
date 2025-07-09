@@ -1,4 +1,11 @@
 /*
+ *  ////////////    ////////////   ||||\\\\     ||||   ||||||||\\\\
+ * ||||||          ||||||          |||| \\\\    ||||   ||||    ||||
+ * ||||            ||||            ||||  \\\\   ||||   ||||||||////
+ * ||||            ||||    \\\     ||||   \\\\  ||||   ||||
+ * ||||||          ||||||   \\\    ||||    \\\\ ||||   ||||
+ *  \\\\\\\\\\\\    \\\\\\\\\\\\   ||||     \\\\||||   ||||
+ * 
  * This file is part of libcgnp.
  *
  * libcgnp is free software: you can redistribute it and/or modify
@@ -17,7 +24,8 @@
  * Copyright (c) 2025 Nico Locklear Cruz
  */
 
-// NOTE: compile this program from the example dir, with the `make` command
+// Show the uses of CGNP
+// NOTE: compile this program from the "examples" dir, with the `make` command
 
 #include <cgnp.h> // We can do this because of the -I../include arg in example/Makefile
 

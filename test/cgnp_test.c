@@ -25,10 +25,12 @@
  * Copyright (c) 2025 Nico Locklear Cruz
  */
 
-// Function definitions for cgnp.o
+// Testing functionality of the library
 
-#include <sys/socket.h>
+#include <cgnp.h>
+#include <stdio.h>
 
-int foo(int bar) {
-    return bar * 2;
+int main(int argc, char** argv) {
+    for (int i = 1; i < argc; i++) printf("%s\n", argv[i]);
+    return 0;
 }

@@ -6,7 +6,6 @@
  * ||||||          ||||||   \\\    ||||    \\\\ ||||   ||||
  *  \\\\\\\\\\\\    \\\\\\\\\\\\   ||||     \\\\||||   ||||
  * 
- * 
  * This file is part of libcgnp.
  *
  * libcgnp is free software: you can redistribute it and/or modify
@@ -25,10 +24,14 @@
  * Copyright (c) 2025 Nico Locklear Cruz
  */
 
-// Function definitions for cgnp.o
+// Show the uses of CGNP
+// NOTE: compile this program from the "examples" dir, with the `make` command
 
-#include <sys/socket.h>
+#include <cgnp.h> // We can do this because of the -I../include arg in example/Makefile
 
-int foo(int bar) {
-    return bar * 2;
+#include <stdio.h>
+
+int main(int argc, char** argv) {
+    if (argc < 2) fprintf(stderr, "Usage: %s MESSAGE...\n", argv[0]);
+    printf("%d\n", foo(99));
 }

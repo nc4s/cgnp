@@ -1,4 +1,11 @@
 /*
+ *  ////////////    ////////////   ||||\\\\     ||||   ||||||||\\\\
+ * ||||||          ||||||          |||| \\\\    ||||   ||||    ||||
+ * ||||            ||||            ||||  \\\\   ||||   ||||||||////
+ * ||||            ||||    \\\     ||||   \\\\  ||||   ||||
+ * ||||||          ||||||   \\\    ||||    \\\\ ||||   ||||
+ *  \\\\\\\\\\\\    \\\\\\\\\\\\   ||||     \\\\||||   ||||
+ * 
  * This file is part of libcgnp.
  *
  * libcgnp is free software: you can redistribute it and/or modify
@@ -17,4 +24,22 @@
  * Copyright (c) 2025 Nico Locklear Cruz
  */
 
+// Macro definitions, type definitions and function declarations
+
+#ifndef CGNP_H
+#define CGNP_H
+
+#include <stdint.h>
+#include <stddef.h>
+
+#ifdef _cplusplus
+extern "C" {
+#endif
+
 int foo(int bar);
+
+#ifdef _cpluplus
+}
+#endif
+
+#endif
